@@ -1,24 +1,24 @@
-# 🧩 Sign Language Detection – YOLOv8 + OpenCV
+# 🧩 Sign Language Detection – YOLO11x + OpenCV
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-8.3.205-green?logo=ultralytics)
+![YOLO11x](https://img.shields.io/badge/YOLO11x-8.3.205-green?logo=ultralytics)
 ![Status](https://img.shields.io/badge/Setup%20Test-Passed-success?logo=anaconda)
 
 ### 👋 Overview
-This project focuses on **real-time recognition of American Sign Language (ASL)** hand gestures using **YOLOv8** for object detection and **OpenCV** for video streaming and inference.  
+This project focuses on **real-time recognition of American Sign Language (ASL)** hand gestures using **YOLO11x** for object detection and **OpenCV** for video streaming and inference.  
 It aims to translate hand signs (A–Z letters, space, period, and comma gestures) into readable text in real-time.
 
 ---
 
 ### 🏗️ Project Architecture
-Camera → YOLOv8 Detection → Letter Buffer → Word/Punctuation Logic → Text Output (GUI)
+Camera → YOLO11x Detection → Letter Buffer → Word/Punctuation Logic → Text Output (GUI)
 
 ---
 
 ### 🧠 Features
 - ASL gesture detection (A–Z + punctuation)
 - Real-time webcam inference with OpenCV
-- Custom-trained YOLOv8 model
+- Custom-trained YOLO11x model
 - Streamlit/Tkinter GUI for live translation
 - ONNX/TorchScript export for lightweight deployment
 
@@ -27,7 +27,7 @@ Camera → YOLOv8 Detection → Letter Buffer → Word/Punctuation Logic → Tex
 ### ⚙️ Tech Stack
 | Component | Technology |
 |------------|-------------|
-| Model | YOLOv8 (Ultralytics) |
+| Model | YOLO11x (Ultralytics) |
 | Framework | PyTorch |
 | Vision | OpenCV |
 | UI | Streamlit / Tkinter |
@@ -69,7 +69,7 @@ notebooks/init_test.ipynb
 ```
 
 This notebook performs a basic verification of:
-- YOLOv8 installation and version
+- YOLO11x installation and version
 - GPU/CUDA availability
 - OpenCV camera initialization test
 - Sample image inference
