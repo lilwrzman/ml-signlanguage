@@ -1,0 +1,7 @@
+__pycache__/
+*.pt
+*.onnx
+outputs/
+data/raw/
+data/processed/
+models/checkpoints/
