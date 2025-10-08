@@ -1,0 +1,7 @@
+train: ../data/processed/images/train
+val: ../data/processed/images/val
+test: ../data/processed/images/test
+
+nc: 29
+names: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'del', 'nothing', 'space']
+    

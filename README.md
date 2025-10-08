@@ -106,10 +106,9 @@ ml-signlanguage/
 │   ├── inference.py # Static image/video detection
 │   ├── app.py # Streamlit/Tkinter live demo
 │   └── utils/
-│       ├── dataset_utils.py
-│       ├── preprocessing.py
-│       └── postprocessing.py
+│       └── dataset.py
 │
+├── .env # Create your own .env file to store your credentials
 ├── .gitignore
 ├── README.md
 └── requirements.txt
