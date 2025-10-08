@@ -83,10 +83,12 @@ If all tests pass (model loads, GPU detected, and camera preview works), your en
 ```graphql
 ml-signlanguage/
 │
+├── config/
+│   └── data.yaml # Dataset config file
+│
 ├── data/
 │   ├── processed/ # YOLO-ready images 
-│   ├── raw/ # Original datasets (Kaggle ASL)and labels
-│   └── data.yaml # Dataset config file
+│   └── raw/ # Original datasets (Kaggle ASL)and labels
 │
 ├── models/
 │   ├── checkpoints/ # Pretrained and trained YOLO weights
@@ -94,6 +96,7 @@ ml-signlanguage/
 │
 ├── notebooks/
 │   ├── init_test.ipynb # Init test
+│   └── main.ipynb
 │
 ├── outputs/
 │   └── logs/ # Training logs and metrics visualization

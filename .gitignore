@@ -5,3 +5,4 @@ outputs/
 data/raw/
 data/processed/
 models/checkpoints/
+.env
